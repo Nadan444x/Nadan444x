@@ -30,13 +30,26 @@ I like building systems where the operator is often an AI rather than a human �
 **Based in**: Chandigarh, India
 
 **Currently focused on**:
+- **Sakha** — live AI emotional support companion
 - **Marga** — issue tracker / sprint manager driven through MCP
 - **marga-mcp** — open-source MCP server for Marga
+- **AssistantApp** — native iOS AI assistant powered by Claude
 - Building internal tools at Margadeshaka with chat-first interfaces
 
 ---
 
 ### What I'm building
+
+<details>
+<summary><strong>Sakha</strong> — live AI emotional support companion</summary>
+
+An AI companion built for emotional support, wellness check-ins, and Vedic guidance — designed to feel like a friend rather than a chatbot. Shipped to TestFlight and Play Store; production launch in progress.
+
+**Stack**: React Native, TypeScript, Azure OpenAI, Node.js backend, Cosmos DB.
+
+**My role**: Contributing engineer on the Margadeshaka team building Sakha.
+
+</details>
 
 <details>
 <summary><strong>Marga</strong> — issue tracker built for AI operators</summary>
@@ -55,6 +68,19 @@ A Linear-inspired issue tracker where the operator is often an LLM rather than a
 Lets Claude Code / Desktop / Cursor drive Marga as a first-class operator. Bearer-token auth with 30-day expiry; tool catalog covers projects, issues, cycles, comments, members. Open source, MIT.
 
 **Stack**: TypeScript, @modelcontextprotocol/sdk, zod for runtime validation.
+
+</details>
+
+<details>
+<summary><strong>AssistantApp</strong> — native iOS AI assistant powered by Claude</summary>
+
+A native iOS app that puts Claude in your pocket — chat, voice, and on-device shortcuts that hand off to Anthropic's API. Built to feel like a first-party Apple experience rather than a wrapped webview.
+
+**Stack**: Swift, SwiftUI, Anthropic API.
+
+<!-- TODO: add GitHub link, screenshots, and a concrete differentiator
+     (e.g. "supports voice with on-device transcription via Speech framework",
+     "uses Claude tool-use for opening apps and sending iMessages", etc.) -->
 
 </details>
 
