@@ -27,6 +27,37 @@ I like building systems where the operator is often an AI rather than a human �
 
 **Education**: BCA, Panjab University
 
+**Based in**: Chandigarh, India
+
+**Currently focused on**:
+- **Marga** — issue tracker / sprint manager driven through MCP
+- **marga-mcp** — open-source MCP server for Marga
+- Building internal tools at Margadeshaka with chat-first interfaces
+
+---
+
+### What I'm building
+
+<details>
+<summary><strong>Marga</strong> — issue tracker built for AI operators</summary>
+
+A Linear-inspired issue tracker where the operator is often an LLM rather than a human. Workspaces, role-based invites (owner / admin / member), per-project + cross-project cycles, real burndown charts computed from actual completion data, an inbox with notifications, and tight integration with the Marga MCP server so you can drive everything through Claude in plain English.
+
+**Stack**: Next.js 16, MongoDB, NextAuth v5, Tailwind v4, TypeScript strict.
+
+**Status**: Active development. ~50 issues tracked. The MCP server speaks 13 tools — `create_issue`, `update_issue`, `list_cycles`, `add_comment`, etc.
+
+</details>
+
+<details>
+<summary><strong>marga-mcp</strong> — MCP server for Marga</summary>
+
+Lets Claude Code / Desktop / Cursor drive Marga as a first-class operator. Bearer-token auth with 30-day expiry; tool catalog covers projects, issues, cycles, comments, members. Open source, MIT.
+
+**Stack**: TypeScript, @modelcontextprotocol/sdk, zod for runtime validation.
+
+</details>
+
 ---
 
 ### Tech Stack
@@ -55,8 +86,24 @@ I like building systems where the operator is often an AI rather than a human �
 
 ![Claude](https://img.shields.io/badge/Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-FF6B6B?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+
+**Editors & Workflow**
+
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </p>
+
+#### Currently learning
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI_Agents-blueviolet?style=flat-square)
 
 ---
 
